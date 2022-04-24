@@ -142,7 +142,7 @@ export const NGO = () => {
     return (
         <>
             {NGOlist.map((element, index) => {
-                return <div className='ngo-card' style={{ border: "1px dashed black" }}>
+                return <div className='ngo-card' style={{ border: "1px dashed black" }} key={index}>
                     <img src={element.Image}></img>
                     <h1>{element.Name}</h1>
                     <p>{element.AreaOfWork}</p>
