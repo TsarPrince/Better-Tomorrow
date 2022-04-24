@@ -24,7 +24,7 @@ export const Footer = () => {
                 </div>
                 <div className="col">
                 <ul>
-                    <h3 class="head-link">Links </h3>
+                    <h3 className="head-link">Links </h3>
                     
                         <li><Link to="/home">Home</Link></li>
                         <li><Link to="/gallery">Issues</Link></li>
