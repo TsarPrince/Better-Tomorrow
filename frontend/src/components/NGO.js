@@ -149,7 +149,7 @@ export const NGO = () => {
                     <p>{element.Criteria}</p>
                     <p>{element.Contact}</p>
                 </div>
-            })}
+            )})};
         </>
     )
 }
