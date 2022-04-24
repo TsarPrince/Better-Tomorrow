@@ -147,8 +147,9 @@ export const NGO = () => {
                     <h1>{element.Name}</h1>
                     <p>{element.AreaOfWork}</p>
                     <p>{element.Criteria}</p>
-                </div>)
-            })}
+                    <p>{element.Contact}</p>
+                </div>
+            )})};
         </>
     )
 }
